@@ -42,13 +42,6 @@ body {
     cursor: pointer;
   }
 
-  .icono{
-    height: 20px;
-    float: left ;
-    position: absolute;
-
-  }
-
   .conteiner button:disabled {
     background-color: #008bff;
     cursor: not-allowed;
@@ -81,4 +74,14 @@ body {
     font-family: Arial, sans-serif;
     text-align:center;
   }
+.google-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
 
+.icono{
+    width: 20px;
+    margin: 0% !important;
+}
