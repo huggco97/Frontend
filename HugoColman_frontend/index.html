@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es-Py">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario login</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <div class="conteiner">
+      <img src="./imges/empresa_logo-removebg-preview.png" alt="Logo">
+      <h1 class="texto1">Empecemos</h1>
+      <div class="login">
+        <form>
+          <input type="email" id="email" placeholder="Correo Electrónico">
+          <p class="texto2">Reenviar instrucciones de configuracion</p>
+          <button type="submit" id="login-btn" disabled>Ingresar</button>
+          <P class="texto3">O bien</P>
+          <button onclick="location.href='https://mail.google.com'" type="button" >
+            <img class="icono" src="./imges/google_icono1.png"> 
+            <span>Continuar Con Google</span>
+          </button>
+        </form>
+      </div>
+      <p class="autor"> Desarrollado por Hugo Colman</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
